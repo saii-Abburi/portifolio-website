@@ -174,9 +174,7 @@ footer {
 
 
 @media (max-width:600px) {
-    nav{
-        width: 86%;
-    }
+
     nav .right ul i {
         display: initial;
         font-size: 5vw;
@@ -221,7 +219,6 @@ footer {
         margin: 4vw 0vw;
         padding: 1vw 0vw;
         height: 0.5px;
-        width: 95%;
     }
 
     .secondSection {
@@ -259,9 +256,6 @@ footer {
         top: -14vw;
         left: 17vw;
         width: 33vw;
-    }
-    footer{
-       width: 98%;
     }
     .footer-rights{
         text-align:left;
