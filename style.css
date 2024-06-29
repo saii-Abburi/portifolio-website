@@ -75,10 +75,9 @@ nav .right ul i {
 
 .secondSection {
     height: 90vh;
-    width: 80vw;
+    width: 78vw;
     margin: auto;
 }
-
 .secondSection .work {
     font-size: 2.3rem;
     font-weight: 700;
@@ -176,9 +175,8 @@ footer {
 
 @media (max-width:600px) {
     nav{
-        width: 100%;
+        width: 86%;
     }
-
     nav .right ul i {
         display: initial;
         font-size: 5vw;
@@ -196,35 +194,39 @@ footer {
 
     .firstSection {
         flex-direction: column;
+        width: 98%;
 
     }
 
     .firstSection .leftSection {
-        font-size: 6.7vw;
-        width: 100%;
-        padding: 2vw 4vw;
+        font-size: 6vw;
+        width: 88%;
+        padding: 2vw 1vw;
     }
 
     .firstSection .rightSection {
-        width: 100%;
-        padding: 2vw 4vw;
+        width: 88%;
+        padding: 2vw 1vw;
     }
 
     .firstSection .rightSection img {
         width: 80%;
         margin-top: 4vw;
+        padding-left: 8vw;
     }
-
+    .leftSection div{
+        width:80%
+    }
     main hr {
         margin: 4vw 0vw;
         padding: 1vw 0vw;
         height: 0.5px;
-        width: 109%;
+        width: 95%;
     }
 
     .secondSection {
         height: calc(100% - 20vh);
-        margin: 7vw 2;
+        margin: 7vw ;
     }
 
     .horizontalline {
@@ -236,8 +238,8 @@ footer {
 
     .verticalline {
         height: 1px;
-        width: 15vw;
-        margin: 9vh 3vw;
+        width: 9vw;
+        margin: 9vh 2vw;
         margin-bottom: 14vh;
         padding: 0px 5vw;
     }
@@ -247,19 +249,22 @@ footer {
         left: -15vw;
     }
     .jobrole{
-        font-size: 6vw;
+        font-size: 5.5vw;
         font-weight: 800;
-        width: 55vw;
+        width: 50vw;
         top: -16vw;
-        left: 22vw;
+        left: 14vw;
     }
     .secondSection .verticalline .description{
         top: -14vw;
-        left: 22vw;
-        width: 35vw;
+        left: 17vw;
+        width: 33vw;
     }
     footer{
-        width: 109%;
+       width: 98%;
+    }
+    .footer-rights{
+        text-align:left;
     }
 
 }
