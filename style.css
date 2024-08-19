@@ -78,7 +78,7 @@ nav .right ul i {
     width: 78vw;
     margin: auto;
 }
-.secondSection .work {
+ .work {
     font-size: 2.3rem;
     font-weight: 700;
 }
@@ -111,7 +111,7 @@ main hr {
 .verticalline img {
     width: 27px;
     position: relative;
-    top: -30px;
+    top: -33px;
     left: -8px;
 }
 
@@ -137,7 +137,49 @@ body {
     color: white;
     font-family: 'poppins', sans-serif;
 }
+/* ------------------- projects CSS------------------- */
+#projects{
+    margin: auto;
+    width: 78vw;
+}
+#projects .project-container{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 30%;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2vw 1vw;
+    line-height: 40px;
+    margin: 40px 0;
 
+}
+#projects .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#projects .project-container .project-img img{
+    width: 300px;
+}
+
+#projects .project-container .project-desc{
+    font-size: large;
+    margin-top: 1.2vw;
+}
+
+#projects .project-container button{
+    background-color: rgb(115, 38, 187);
+    padding: 1.4vw 2vw;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1vw;
+    color: white;
+}
 footer {
     background-color: rgb(34, 34, 47);
 }
@@ -171,6 +213,44 @@ footer {
     padding-bottom: 5px;
 }
 
+/* ------------------------- contact form ------------------------------------- */
+#contactme{
+    margin: auto;
+    width: 78vw;
+}
+
+#contactme form{
+    width: 70%;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    border-bottom: none;
+    display: flex;
+    font-size: 2vw;
+    flex-direction: column;
+    gap: 1.5vw;
+    position: relative;
+    left: 14%;
+    right: 50%;
+    margin: 3vw 0;
+}
+#contactme form input{
+    height: 2.5vw;
+}
+#contactme form button{
+    height: 2.3vw;
+    background-color: rgb(115, 38, 187);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
 
 
 @media (max-width:600px) {
@@ -199,7 +279,7 @@ footer {
     .firstSection .leftSection {
         font-size: 6vw;
         width: 88%;
-        padding: 2vw 1vw;
+        padding: 2vw 4vw;
     }
 
     .firstSection .rightSection {
@@ -257,8 +337,33 @@ footer {
         left: 17vw;
         width: 33vw;
     }
+
+    #contactme form{
+        width: 100%;
+        left: 0%;
+        font-size: 2vh;
+    }
+    #contactme form input{
+        height: 3vh;
+    }
+    #contactme form button{
+        height: 3vh;
+    }
+
+    #projects .container{
+        flex-direction: column;
+        
+    }
+    #projects .container .project-container{
+        width: 100%;
+    }
+    #projects .container .project-container img{
+        width: 58vw;
+    }
     .footer-rights{
         text-align:left;
     }
+
+
 
 }
